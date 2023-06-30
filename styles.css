@@ -2,7 +2,8 @@
 .cards{
 	display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+/* 	justify-content: center; */
+    align-items: flex-end;
     gap: 20px;
 }
 .cards img{
@@ -13,6 +14,7 @@
 }
 .cards img:nth-child(2){
 	height: 20vh;
+	
 	margin-top: auto;
 }
 .cards img:nth-child(4){
